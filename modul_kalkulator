@@ -1,0 +1,17 @@
+from modul_kalkulator import *
+
+print("program kalkulator")
+print("masukan ankah yang akan di hitung")
+a=int(input("masukan A: "))
+b=int(input("masukan B: "))
+
+print("="*20)
+
+print("hasil A + B : ", tambah(a,b))
+print("hasil A * B : ", kali(a,b))
+
+hit = kalkulator(a,b) 
+print("hasil A + B : ", hit.tambah())
+print("hasil A * B : ", hit.kali())
+print("hasil A / B : ", hit.bagi())
+print("hasil A - B : ", hit.kurang())
